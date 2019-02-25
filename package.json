@@ -1,0 +1,34 @@
+{
+  "name": "kotlin-core-builder",
+  "version": "1.0.0",
+  "description": "Build kotlin library for Bukkit.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index",
+    "jar": "javac -cp spigot.jar Main.java"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apisium/KotlinCoreBuilder.git"
+  },
+  "keywords": [
+    "Kotoin",
+    "Minecraft",
+    "Bukkit",
+    "Spigot",
+    "Server",
+    "Plugin"
+  ],
+  "author": "Shirasawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apisium/KotlinCoreBuilder/issues"
+  },
+  "homepage": "https://github.com/Apisium/KotlinCoreBuilder#readme",
+  "dependencies": {
+    "jszip": "^3.2.0",
+    "node-fetch": "^2.3.0",
+    "ora": "^3.1.0"
+  }
+}
