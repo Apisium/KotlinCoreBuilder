@@ -1,4 +1,4 @@
-package cn.apisium.kotlin.Main;
+package cn.apisium.kotlin;
 
 final public class Main extends org.bukkit.plugin.java.JavaPlugin {
   @Override
