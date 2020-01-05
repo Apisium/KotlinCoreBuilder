@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 const { writeFile, readFileSync } = require('fs')
 const { loadAsync } = require('jszip')
 
-const ver = '1.3.21', ann = '13.0'
+const ver = '1.3.61', ann = '13.0'
 
 const plugin = `name: KotlinCore
 main: cn.apisium.kotlin.Main
@@ -20,8 +20,8 @@ const urls = [
   `http://central.maven.org/maven2/org/jetbrains/annotations/${ann}/annotations-${ann}.jar`,
   'http://central.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.1.1/kotlinx-coroutines-core-1.1.1.jar',
   'http://central.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/1.1.1/kotlinx-coroutines-core-common-1.1.1.jar',
-  'https://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlinx/kotlinx-serialization-runtime-common/0.10.0/kotlinx-serialization-runtime-common-0.10.0.jar',
-  'https://dl.bintray.com/kotlin/kotlinx/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.10.0/kotlinx-serialization-runtime-0.10.0.jar',
+  'https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.14.0/kotlinx-serialization-runtime-0.14.0.jar',
+  'https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-runtime-common/0.14.0/kotlinx-serialization-runtime-common-0.14.0.jar',
   'http://nexus.okkero.com/repository/maven-releases/com/okkero/skedule/skedule/1.2.5/skedule-1.2.5.jar'
 ]
 
