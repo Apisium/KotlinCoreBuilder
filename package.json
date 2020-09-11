@@ -28,7 +28,7 @@
   "homepage": "https://github.com/Apisium/KotlinCoreBuilder#readme",
   "dependencies": {
     "jszip": "^3.2.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "ora": "^3.1.0"
   }
 }
